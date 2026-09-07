@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "topic": "HTML",
+    "question": "Which element labels a form control?",
+    "options": [
+      "label",
+      "div",
+      "br"
+    ],
+    "answerIndex": 0,
+    "explanation": "A label describes a form control and can connect to its id."
+  },
+  {
+    "id": 2,
+    "topic": "CSS",
+    "question": "Which property enables a flex container?",
+    "options": [
+      "position: absolute",
+      "display: flex",
+      "font-weight: bold"
+    ],
+    "answerIndex": 1,
+    "explanation": "display: flex enables Flexbox for the direct children."
+  },
+  {
+    "id": 3,
+    "topic": "JavaScript",
+    "question": "Which array method selects matching records?",
+    "options": [
+      "push",
+      "find",
+      "filter"
+    ],
+    "answerIndex": 2,
+    "explanation": "filter returns an array containing matching items."
+  },
+  {
+    "id": 4,
+    "topic": "JavaScript",
+    "question": "Which event normally handles form submission?",
+    "options": [
+      "submit",
+      "mouseover",
+      "load"
+    ],
+    "answerIndex": 0,
+    "explanation": "Listen for submit on the form and prevent default navigation when needed."
+  },
+  {
+    "id": 5,
+    "topic": "JavaScript",
+    "question": "What should you check before parsing a fetch response?",
+    "options": [
+      "response.title",
+      "response.ok",
+      "response.length"
+    ],
+    "answerIndex": 1,
+    "explanation": "response.ok indicates whether the HTTP status is successful."
+  },
+  {
+    "id": 6,
+    "topic": "HTML",
+    "question": "Which element is a table header cell?",
+    "options": [
+      "td",
+      "th",
+      "tr"
+    ],
+    "answerIndex": 1,
+    "explanation": "th represents a header cell."
+  },
+  {
+    "id": 7,
+    "topic": "CSS",
+    "question": "Which feature applies styles at a chosen viewport width?",
+    "options": [
+      "Media query",
+      "HTML comment",
+      "JavaScript object"
+    ],
+    "answerIndex": 0,
+    "explanation": "A media query can apply styles when the viewport matches a condition."
+  },
+  {
+    "id": 8,
+    "topic": "JavaScript",
+    "question": "Which method removes spaces from both ends of text?",
+    "options": [
+      "map()",
+      "push()",
+      "trim()"
+    ],
+    "answerIndex": 2,
+    "explanation": "trim returns a string without leading or trailing whitespace."
+  }
+]

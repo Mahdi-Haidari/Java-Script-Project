@@ -1,0 +1,31 @@
+14. Web Skills Revision Quiz
+
+PURPOSE
+Help students practise familiar web concepts and review explanations for mistakes.
+
+SCREEN
+Start form, question panel, progress text and review cards.
+
+REQUIRED FEATURES
+- Enter a learner name and choose All topics or one topic before starting.
+- Show one question at a time with radio options; allow Previous and Next without losing answers.
+- Block finish until every selected question has an answer; display score and percentage.
+- Show selected answer, correct answer and explanation for each question; restart clears all answers.
+
+RULES
+- Name: 2–60 characters; one choice per question; index 0 is a valid answer.
+- Each correct response gives one point; no timer, randomisation or negative marks required.
+- Topic cannot change during an attempt; use Restart to choose a different topic.
+
+STARTER DATA
+Read data.json: it is an array of 8 objects. Field names: id,topic,question,options,answerIndex,explanation. IDs identify source records. For new records, choose numeric IDs greater than the largest existing ID and increment them. New carts, plans and session registration lists start empty; the source catalogue remains separate.
+
+ACCEPTANCE CHECKS (each starts from fresh seed data unless stated)
+- All topics contains 8 questions; all correct scores 8/8 and 100%.
+- HTML contains 2 questions; one correct scores 1/2 and 50%.
+- An unanswered question blocks finish; Previous retains the selected choice.
+
+OPTIONAL EXTENSION
+Add a review filter that shows only incorrect answers.
+
+Read START-HERE.txt and CSS-GUIDE.txt in the package root. Complete the required features before attempting the extension. All seed names, businesses, prices and records are fictional classroom examples.
